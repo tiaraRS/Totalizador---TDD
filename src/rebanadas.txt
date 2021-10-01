@@ -1,0 +1,6 @@
+REBANADAS TOTALIZADOR:
+1. Calcular total segun precio y cantidad 
+2. Calcular total segun estado predeterminado
+3. Calcular total para varios estados 
+4. Calcular total con un descuento
+5. Calcular total con todos los descuentos
