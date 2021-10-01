@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1633081363625" clover="3.2.0">
-  <project timestamp="1633081363625" name="All files">
-    <metrics statements="12" coveredstatements="12" conditionals="9" coveredconditionals="9" methods="3" coveredmethods="3" elements="24" coveredelements="24" complexity="0" loc="12" ncloc="12" packages="1" files="1" classes="1"/>
+<coverage generated="1633081430536" clover="3.2.0">
+  <project timestamp="1633081430536" name="All files">
+    <metrics statements="13" coveredstatements="13" conditionals="11" coveredconditionals="11" methods="3" coveredmethods="3" elements="27" coveredelements="27" complexity="0" loc="13" ncloc="13" packages="1" files="1" classes="1"/>
     <file name="Totalizador.js" path="D:\UNIVERSIDAD\SEMESTRE 6\ING DE SW\PROYECTOS\TDD TOTALIZADOR\parcel-jest-base\src\Totalizador.js">
-      <metrics statements="12" coveredstatements="12" conditionals="9" coveredconditionals="9" methods="3" coveredmethods="3"/>
-      <line num="3" count="13" type="stmt"/>
-      <line num="4" count="13" type="stmt"/>
-      <line num="8" count="13" type="cond" truecount="2" falsecount="0"/>
-      <line num="9" count="12" type="cond" truecount="2" falsecount="0"/>
-      <line num="10" count="11" type="cond" truecount="2" falsecount="0"/>
-      <line num="11" count="10" type="cond" truecount="2" falsecount="0"/>
-      <line num="12" count="8" type="stmt"/>
-      <line num="16" count="13" type="stmt"/>
-      <line num="17" count="13" type="stmt"/>
-      <line num="18" count="13" type="stmt"/>
-      <line num="19" count="13" type="stmt"/>
-      <line num="20" count="13" type="stmt"/>
+      <metrics statements="13" coveredstatements="13" conditionals="11" coveredconditionals="11" methods="3" coveredmethods="3"/>
+      <line num="3" count="14" type="stmt"/>
+      <line num="4" count="14" type="stmt"/>
+      <line num="8" count="14" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="13" type="cond" truecount="2" falsecount="0"/>
+      <line num="10" count="12" type="cond" truecount="2" falsecount="0"/>
+      <line num="11" count="11" type="cond" truecount="2" falsecount="0"/>
+      <line num="12" count="10" type="cond" truecount="2" falsecount="0"/>
+      <line num="13" count="8" type="stmt"/>
+      <line num="17" count="14" type="stmt"/>
+      <line num="18" count="14" type="stmt"/>
+      <line num="19" count="14" type="stmt"/>
+      <line num="20" count="14" type="stmt"/>
+      <line num="21" count="14" type="stmt"/>
     </file>
   </project>
 </coverage>
