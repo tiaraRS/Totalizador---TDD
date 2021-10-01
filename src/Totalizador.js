@@ -5,6 +5,7 @@ function calcularTotal(cantidad, precio, estado=""){
     if (estado == "UT") return subTotal + subTotal * 0.0665;
     if (estado == "NV") return subTotal + subTotal * 0.08;
     if (estado == "TX") return subTotal + subTotal * 0.0625;
+    if (estado == "AL") return subTotal + subTotal * 0.04;
     return subTotal;
 }
 

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1633080200749" clover="3.2.0">
-  <project timestamp="1633080200749" name="All files">
-    <metrics statements="7" coveredstatements="7" conditionals="9" coveredconditionals="9" methods="1" coveredmethods="1" elements="17" coveredelements="17" complexity="0" loc="7" ncloc="7" packages="1" files="1" classes="1"/>
+<coverage generated="1633080256125" clover="3.2.0">
+  <project timestamp="1633080256125" name="All files">
+    <metrics statements="8" coveredstatements="8" conditionals="11" coveredconditionals="11" methods="1" coveredmethods="1" elements="20" coveredelements="20" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1"/>
     <file name="Totalizador.js" path="D:\UNIVERSIDAD\SEMESTRE 6\ING DE SW\PROYECTOS\TDD TOTALIZADOR\parcel-jest-base\src\Totalizador.js">
-      <metrics statements="7" coveredstatements="7" conditionals="9" coveredconditionals="9" methods="1" coveredmethods="1"/>
-      <line num="2" count="7" type="stmt"/>
-      <line num="3" count="7" type="stmt"/>
-      <line num="4" count="7" type="cond" truecount="2" falsecount="0"/>
-      <line num="5" count="5" type="cond" truecount="2" falsecount="0"/>
-      <line num="6" count="4" type="cond" truecount="2" falsecount="0"/>
-      <line num="7" count="3" type="cond" truecount="2" falsecount="0"/>
-      <line num="8" count="2" type="stmt"/>
+      <metrics statements="8" coveredstatements="8" conditionals="11" coveredconditionals="11" methods="1" coveredmethods="1"/>
+      <line num="2" count="8" type="stmt"/>
+      <line num="3" count="8" type="stmt"/>
+      <line num="4" count="8" type="cond" truecount="2" falsecount="0"/>
+      <line num="5" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="8" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="2" type="stmt"/>
     </file>
   </project>
 </coverage>
