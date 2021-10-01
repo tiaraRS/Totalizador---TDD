@@ -3,13 +3,13 @@ SF:src\Totalizador.js
 FN:1,calcularTotal
 FNF:1
 FNH:1
-FNDA:3,calcularTotal
-DA:2,3
+FNDA:4,calcularTotal
+DA:2,4
 DA:3,2
 LF:2
 LH:2
 BRDA:1,0,0,2
-BRDA:2,1,0,1
+BRDA:2,1,0,2
 BRDA:2,1,1,2
 BRF:3
 BRH:3
