@@ -5,6 +5,7 @@ function impuestoPorEstado(estado){
 }
 
 function descuentoPorPrecio(subTotal){
+    if(subTotal >= 10000) return 0.1;
     if(subTotal >= 7000) return 0.07;
     if(subTotal >= 3000) return 0.05;
     if(subTotal >= 1000) return 0.03;

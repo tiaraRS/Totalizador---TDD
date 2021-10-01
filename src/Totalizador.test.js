@@ -37,6 +37,9 @@ describe("Calcular total", () => {
     it("Calcular total con un descuento y estado- deberia devolver 7030.8 para cantidad 1 y precio 7000", () => {
         expect(calcularTotal(1, 7000, "NV")).toEqual(7030.8);
     });
+    it("Calcular total con un descuento y estado- deberia devolver 9720 para cantidad 1 y precio 10000", () => {
+        expect(calcularTotal(1, 10000, "NV")).toEqual(9720);
+    });
 
 
 });
