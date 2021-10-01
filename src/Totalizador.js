@@ -3,6 +3,7 @@ function calcularTotal(cantidad, precio, estado=""){
     let impuestoCA = 0.0825;
     if (estado == "CA") return subTotal + subTotal * impuestoCA;
     if (estado == "UT") return subTotal + subTotal * 0.0665;
+    if (estado == "NV") return subTotal + subTotal * 0.08;
     return subTotal;
 }
 
