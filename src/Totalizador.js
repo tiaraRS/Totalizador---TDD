@@ -4,12 +4,17 @@ function impuestoPorEstado(estado){
     return impuestos[estado];    
 }
 
+function descuentoPorPrecio(subTotal){
+    if(subTotal >= 1000) return 0.03;
+    return 0;
+}
 
 function calcularTotal(cantidad, precio, estado=""){
     let subTotal = precio * cantidad;
     let impuesto = impuestoPorEstado(estado);
-    if(subTotal >= 1000) return subTotal + subTotal * impuesto - ((subTotal +subTotal*impuesto)*0.03);
-    return subTotal + subTotal * impuesto;
+    let subTotalConImpuesto = subTotal + subTotal * impuesto;
+    let descuento = descuentoPorPrecio(subTotalConImpuesto);
+    return subTotalConImpuesto - subTotalConImpuesto*descuento;
 }
 
 export default calcularTotal;
