@@ -3,11 +3,11 @@ SF:src\Totalizador.js
 FN:1,calcularTotal
 FNF:1
 FNH:1
-FNDA:1,calcularTotal
-DA:2,1
+FNDA:2,calcularTotal
+DA:2,2
 LF:1
 LH:1
-BRDA:1,0,0,1
+BRDA:1,0,0,2
 BRF:1
 BRH:1
 end_of_record
