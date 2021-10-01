@@ -8,7 +8,7 @@ function impuestoPorEstado(estado){
 function calcularTotal(cantidad, precio, estado=""){
     let subTotal = precio * cantidad;
     let impuesto = impuestoPorEstado(estado);
-    if(subTotal == 2000) return 1940;
+    if(subTotal >= 1000) return subTotal + subTotal * impuesto - ((subTotal +subTotal*impuesto)*0.03);
     return subTotal + subTotal * impuesto;
 }
 

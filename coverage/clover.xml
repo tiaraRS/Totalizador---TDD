@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1633080533711" clover="3.2.0">
-  <project timestamp="1633080533711" name="All files">
+<coverage generated="1633080871221" clover="3.2.0">
+  <project timestamp="1633080871221" name="All files">
     <metrics statements="6" coveredstatements="6" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2" elements="11" coveredelements="11" complexity="0" loc="6" ncloc="6" packages="1" files="1" classes="1"/>
     <file name="Totalizador.js" path="D:\UNIVERSIDAD\SEMESTRE 6\ING DE SW\PROYECTOS\TDD TOTALIZADOR\parcel-jest-base\src\Totalizador.js">
       <metrics statements="6" coveredstatements="6" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
-      <line num="3" count="9" type="stmt"/>
-      <line num="4" count="9" type="stmt"/>
-      <line num="9" count="9" type="stmt"/>
-      <line num="10" count="9" type="stmt"/>
-      <line num="11" count="9" type="cond" truecount="2" falsecount="0"/>
+      <line num="3" count="10" type="stmt"/>
+      <line num="4" count="10" type="stmt"/>
+      <line num="9" count="10" type="stmt"/>
+      <line num="10" count="10" type="stmt"/>
+      <line num="11" count="10" type="cond" truecount="2" falsecount="0"/>
       <line num="12" count="8" type="stmt"/>
     </file>
   </project>
