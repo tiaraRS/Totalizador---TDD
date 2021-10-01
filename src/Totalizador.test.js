@@ -7,6 +7,10 @@ describe("Calcular total", () => {
     it("deberia devolver 10 para cantidad 2 y precio 5", () => {
         expect(calcularTotal(2, 5)).toEqual(10);
     });
+    it("Calcular total con estado predeterminado CA - deberia devolver 10.825 para cantidad 2 y precio 5", () => {
+        expect(calcularTotal(2, 5, "CA")).toEqual(10.825);
+    });
+    
 
 });
 
